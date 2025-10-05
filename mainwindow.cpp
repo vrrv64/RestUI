@@ -939,21 +939,21 @@ void MainWindow::loadSavedRequests() {
 }
 
 void MainWindow::saveSettings() {
-    QSettings settings("xAI", "RestUI");
+    QSettings settings("XYZ", "RestUI");
     settings.setValue("geometry", saveGeometry());
     settings.setValue("splitterSizes", splitter->saveState());
     saveFolderState(sidebar->invisibleRootItem()); // Save folder state
 }
 
 void MainWindow::restoreSettings() {
-    QSettings settings("xAI", "RestUI");
+    QSettings settings("XYZ", "RestUI");
     restoreGeometry(settings.value("geometry").toByteArray());
     splitter->restoreState(settings.value("splitterSizes").toByteArray());
     restoreFolderState(sidebar->invisibleRootItem()); // Restore folder state
 }
 
 void MainWindow::saveFolderState(QTreeWidgetItem *item) {
-    QSettings settings("xAI", "RestUI");
+    QSettings settings("XYZ", "RestUI");
     for (int i = 0; i < item->childCount(); ++i) {
         QTreeWidgetItem *child = item->child(i);
         if (child->data(0, Qt::UserRole).toString() == "folder") {
@@ -965,7 +965,7 @@ void MainWindow::saveFolderState(QTreeWidgetItem *item) {
 }
 
 void MainWindow::restoreFolderState(QTreeWidgetItem *item) {
-    QSettings settings("xAI", "RestUI");
+    QSettings settings("XYZ", "RestUI");
     for (int i = 0; i < item->childCount(); ++i) {
         QTreeWidgetItem *child = item->child(i);
         if (child->data(0, Qt::UserRole).toString() == "folder") {
