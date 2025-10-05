@@ -4,7 +4,7 @@ A lightweight Qt-based REST client for testing and managing HTTP requests with s
 was generated using AI, showcasing innovative use of technology in software development.
 
 <div id="carousel-container" style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
-  <img id="carousel-image" src="./screenshots/screenshot1.png" alt="Screenshot 1" style="width: 100%; height: auto; cursor: pointer; transition: opacity 0.5s ease-in-out;">
+  <img id="carousel-image" src="./screenshots/screenshot.png" alt="Screenshot 1" style="width: 100%; height: auto; cursor: pointer; transition: opacity 0.5s ease-in-out;">
 </div>
 
 <script>
