@@ -16,12 +16,10 @@ RestUI is a desktop application built with Qt that allows users to send HTTP req
 - Organize requests into folders with drag-and-drop support to:
   - Reorder folders and requests.
   - Move requests between folders and root level.
-- Unique request name handling with conflict resolution options (Replace, Keep Both, Cancel).
-- Tooltips on hover over saved requests showing method and URL.
 - Responsive UI with tabbed views for headers, body, and form parameters.
 
 ## Requirements
-- **Qt**: Version 5.15 or later (Qt 6.x recommended).
+- **Qt**: Version 5.15 or later.
 - **KSyntaxHighlighting**: KDE Frameworks library (`libkf5syntaxhighlighting-dev` on Debian-based systems).
 - **Build Tools**: `qmake` and a C++17-compatible compiler.
 
