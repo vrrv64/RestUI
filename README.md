@@ -3,7 +3,7 @@
 A lightweight Qt-based REST client for testing and managing HTTP requests with syntax-highlighted responses and saved request management. The codebase
 was generated using AI, showcasing innovative use of technology in software development.
 
-![Screenshot](images/screenshot.png)
+![Screenshot](images/screenshot2.png)
 
 ## Overview
 
