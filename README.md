@@ -3,33 +3,7 @@
 A lightweight Qt-based REST client for testing and managing HTTP requests with syntax-highlighted responses and saved request management. The codebase
 was generated using AI, showcasing innovative use of technology in software development.
 
-<div id="carousel-container" style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
-  <img id="carousel-image" src="./screenshots/screenshot.png" alt="Screenshot 1" style="width: 100%; height: auto; cursor: pointer; transition: opacity 0.5s ease-in-out;">
-</div>
-
-<script>
-// Simple click-to-advance carousel script
-(function() {
-  const images = [
-    './images/screenshot.png',
-    './images/screenshot2.png'
-  ];
-  const imgElement = document.getElementById('carousel-image');
-  let currentIndex = 0;
-
-  imgElement.addEventListener('click', function() {
-    // Fade out current image
-    this.style.opacity = '0';
-    setTimeout(() => {
-      currentIndex = (currentIndex + 1) % images.length;
-      this.src = images[currentIndex];
-      this.alt = `Screenshot ${currentIndex + 1}`;
-      // Fade in next image
-      this.style.opacity = '1';
-    }, 250);  // Half the transition duration
-  });
-})();
-</script>
+![Screenshot](images/screenshot.png)
 
 ## Overview
 
